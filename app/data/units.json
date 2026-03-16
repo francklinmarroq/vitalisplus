@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Miligramos por decilitro",
+    "abbreviation": "mg/dL"
+  },
+  {
+    "id": 2,
+    "name": "Gramos por decilitro",
+    "abbreviation": "g/dL"
+  },
+  {
+    "id": 3,
+    "name": "Milimoles por litro",
+    "abbreviation": "mmol/L"
+  },
+  {
+    "id": 4,
+    "name": "Unidades por litro",
+    "abbreviation": "U/L"
+  },
+  {
+    "id": 5,
+    "name": "Miliunidades internacionales por mililitro",
+    "abbreviation": "mUI/mL"
+  },
+  {
+    "id": 6,
+    "name": "Microgramos por litro",
+    "abbreviation": "µg/L"
+  },
+  {
+    "id": 7,
+    "name": "Nanogramos por mililitro",
+    "abbreviation": "ng/mL"
+  },
+  {
+    "id": 8,
+    "name": "Miles por microlitro",
+    "abbreviation": "x10³/µL"
+  },
+  {
+    "id": 9,
+    "name": "Millones por microlitro",
+    "abbreviation": "x10⁶/µL"
+  },
+  {
+    "id": 10,
+    "name": "Porcentaje",
+    "abbreviation": "%"
+  }
+]

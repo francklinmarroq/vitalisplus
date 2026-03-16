@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Glucosa",
+    "value_type_id": 1,
+    "low_expected_value": 70,
+    "high_expected_value": 100,
+    "reference_text": "",
+    "unit_id": 1,
+    "parameter_type_id": 2
+  },
+  {
+    "id": 2,
+    "name": "Hemoglobina",
+    "value_type_id": 1,
+    "low_expected_value": 12,
+    "high_expected_value": 17.5,
+    "reference_text": "",
+    "unit_id": 2,
+    "parameter_type_id": 2
+  },
+  {
+    "id": 3,
+    "name": "Hematocrito",
+    "value_type_id": 1,
+    "low_expected_value": 36,
+    "high_expected_value": 54,
+    "reference_text": "",
+    "unit_id": 10,
+    "parameter_type_id": 1
+  },
+  {
+    "id": 4,
+    "name": "Eritrocitos",
+    "value_type_id": 1,
+    "low_expected_value": 4.5,
+    "high_expected_value": 5.5,
+    "reference_text": "",
+    "unit_id": 9,
+    "parameter_type_id": 3
+  },
+  {
+    "id": 5,
+    "name": "Leucocitos",
+    "value_type_id": 1,
+    "low_expected_value": 4.5,
+    "high_expected_value": 11,
+    "reference_text": "",
+    "unit_id": 8,
+    "parameter_type_id": 3
+  },
+  {
+    "id": 6,
+    "name": "Plaquetas",
+    "value_type_id": 1,
+    "low_expected_value": 150,
+    "high_expected_value": 400,
+    "reference_text": "",
+    "unit_id": 8,
+    "parameter_type_id": 3
+  },
+  {
+    "id": 7,
+    "name": "Creatinina",
+    "value_type_id": 1,
+    "low_expected_value": 0.6,
+    "high_expected_value": 1.2,
+    "reference_text": "",
+    "unit_id": 1,
+    "parameter_type_id": 2
+  },
+  {
+    "id": 8,
+    "name": "Urea",
+    "value_type_id": 1,
+    "low_expected_value": 15,
+    "high_expected_value": 45,
+    "reference_text": "",
+    "unit_id": 1,
+    "parameter_type_id": 2
+  },
+  {
+    "id": 9,
+    "name": "Colesterol Total",
+    "value_type_id": 1,
+    "low_expected_value": 0,
+    "high_expected_value": 200,
+    "reference_text": "",
+    "unit_id": 1,
+    "parameter_type_id": 2
+  },
+  {
+    "id": 10,
+    "name": "Triglicéridos",
+    "value_type_id": 1,
+    "low_expected_value": 0,
+    "high_expected_value": 150,
+    "reference_text": "",
+    "unit_id": 1,
+    "parameter_type_id": 2
+  },
+  {
+    "id": 11,
+    "name": "Color de Orina",
+    "value_type_id": 2,
+    "low_expected_value": null,
+    "high_expected_value": null,
+    "reference_text": "Amarillo claro a ámbar",
+    "unit_id": null,
+    "parameter_type_id": 1
+  },
+  {
+    "id": 12,
+    "name": "Aspecto de Orina",
+    "value_type_id": 2,
+    "low_expected_value": null,
+    "high_expected_value": null,
+    "reference_text": "Transparente",
+    "unit_id": null,
+    "parameter_type_id": 1
+  },
+  {
+    "id": 13,
+    "name": "ALT (TGP)",
+    "value_type_id": 1,
+    "low_expected_value": 7,
+    "high_expected_value": 56,
+    "reference_text": "",
+    "unit_id": 4,
+    "parameter_type_id": 2
+  },
+  {
+    "id": 14,
+    "name": "AST (TGO)",
+    "value_type_id": 1,
+    "low_expected_value": 10,
+    "high_expected_value": 40,
+    "reference_text": "",
+    "unit_id": 4,
+    "parameter_type_id": 2
+  },
+  {
+    "id": 15,
+    "name": "TSH",
+    "value_type_id": 1,
+    "low_expected_value": 0.4,
+    "high_expected_value": 4.0,
+    "reference_text": "",
+    "unit_id": 5,
+    "parameter_type_id": 2
+  }
+]

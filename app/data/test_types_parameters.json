@@ -1,0 +1,62 @@
+[
+  {
+    "test_type_id": 1,
+    "parameter_id": 1
+  },
+  {
+    "test_type_id": 2,
+    "parameter_id": 2
+  },
+  {
+    "test_type_id": 2,
+    "parameter_id": 3
+  },
+  {
+    "test_type_id": 2,
+    "parameter_id": 4
+  },
+  {
+    "test_type_id": 2,
+    "parameter_id": 5
+  },
+  {
+    "test_type_id": 2,
+    "parameter_id": 6
+  },
+  {
+    "test_type_id": 3,
+    "parameter_id": 11
+  },
+  {
+    "test_type_id": 3,
+    "parameter_id": 12
+  },
+  {
+    "test_type_id": 4,
+    "parameter_id": 9
+  },
+  {
+    "test_type_id": 4,
+    "parameter_id": 10
+  },
+  {
+    "test_type_id": 5,
+    "parameter_id": 7
+  },
+  {
+    "test_type_id": 5,
+    "parameter_id": 8
+  },
+  {
+    "test_type_id": 6,
+    "parameter_id": 13
+  },
+  {
+    "test_type_id": 6,
+    "parameter_id": 14
+  },
+  {
+    "test_type_id": 7,
+    "parameter_id": 15
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Glucosa en Sangre"
+  },
+  {
+    "id": 2,
+    "name": "Biometría Hemática Completa"
+  },
+  {
+    "id": 3,
+    "name": "Examen General de Orina"
+  },
+  {
+    "id": 4,
+    "name": "Perfil Lipídico"
+  },
+  {
+    "id": 5,
+    "name": "Pruebas de Función Renal"
+  },
+  {
+    "id": 6,
+    "name": "Perfil Hepático"
+  },
+  {
+    "id": 7,
+    "name": "Perfil Tiroideo"
+  }
+]

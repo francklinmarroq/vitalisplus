@@ -12,16 +12,12 @@ function getItems(expanded: boolean) {
       to: '/dashboard',
     },
     {
-      label: 'Test Configuration',
+      label: 'Configuraciond de Pruebas',
       icon: 'i-lucide-flask-conical',
       children: [
         {
-          label: 'Tests',
+          label: 'Listado de Pruebas',
           to: '/tests',
-        },
-        {
-          label: 'Units',
-          to: '/units',
         },
       ],
     },
@@ -57,7 +53,7 @@ const userItems = computed<DropdownMenuItem[][]>(() => [
     <UDashboardSidebar
       v-model:open="open"
       v-model:collapsed="collapsed"
-      class="shadow-md shadow-slate-200"
+      class="shadow-md shadow-neutral-200"
       collapsible
       :collapsed-size="0"
       :default-size="15"
@@ -105,7 +101,7 @@ const userItems = computed<DropdownMenuItem[][]>(() => [
       >
         <UDashboardSidebarCollapse />
       </div>
-      <div class="flex-1 overflow-y-auto bf-primary p-8">
+      <div class="flex-1 overflow-y-auto p-8">
         <slot />
       </div>
     </div>

@@ -33,7 +33,10 @@ CREATE TABLE user_profiles (
   role_id UUID REFERENCES roles(id)
 );
 
-
-
+CREATE TABLE units (
+  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  laboratory_id UUID REFERENCES laboratories(id),
+  unit VARCHAR(10) NOT NULL
+);
 
 
