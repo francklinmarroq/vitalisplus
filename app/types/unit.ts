@@ -1,4 +1,5 @@
 export interface Unit {
-  id: number
+  id: string
+  laboratoryId: string
   unit: string
 }

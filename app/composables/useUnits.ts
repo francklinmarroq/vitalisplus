@@ -3,25 +3,38 @@ import { unitsService } from '~/services/unitsService'
 
 export function useUnits() {
   const units = ref<Unit[]>([])
-  const loading = ref(false)
+  const loadingFetch = ref(false)
+  const loadingSave = ref(false)
   const error = ref<string | null>(null)
 
   async function fetchAll() {
-    loading.value = true
+    loadingFetch.value = true
     error.value = null
     try {
       const data = await unitsService.getAll()
-      units.value = data.map(c => ({ ...c }))
+      units.value = data
     }
     catch (err: any) {
       error.value = err.message
     }
     finally {
-      loading.value = false
+      loadingFetch.value = false
     }
   }
 
-  fetchAll()
-
-  return { units, loading, error, fetchAll }
+  async function saveUnit(unitName: string) {
+    loadingSave.value = true
+    error.value = null
+    try {
+      const data = await unitsService.save(unitName)
+      units.value.push(data)
+    }
+    catch (err: any) {
+      error.value = err.message
+    }
+    finally {
+      loadingSave.value = false
+    }
+  }
+  return { units, loadingFetch, loadingSave, error, fetchAll, saveUnit }
 }
