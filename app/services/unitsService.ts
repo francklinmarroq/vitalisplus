@@ -7,7 +7,6 @@ export const unitsService = {
     if (error) {
       throw new Error(`Error in unitsService.getAll: ${error.message}`)
     }
-
     return data
   },
 

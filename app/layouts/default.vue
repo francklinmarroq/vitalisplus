@@ -23,6 +23,10 @@ function getItems(expanded: boolean) {
           label: 'Units',
           to: '/units',
         },
+        {
+          label: 'Parameters',
+          to: '/parameters',
+        },
       ],
     },
   ] satisfies NavigationMenuItem[]

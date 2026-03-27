@@ -55,12 +55,34 @@ CREATE TABLE parameter_types(
 CREATE TABLE parameters (
   id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
   laboratory_id UUID NOT NULL REFERENCES laboratories(id),
+  name VARCHAR(50) NOT NULL,
   value_type_id UUID REFERENCES value_types(id),
-  low_expected_value DECIMAL,
-  high_expected_value DECIMAL,
-  reference_text VARCHAR(20),
-  unit_id UUID REFERENCES units(id),
   parameter_type_id UUID REFERENCES parameter_types(id)
 );
 
+CREATE TABLE test_types (
+  id UUID PRIMARY KEY NOT NULL DEFAULT uuid_generate_v4(),
+  laboratory_id UUID NOT NULL REFERENCES laboratories(id),
+  name VARCHAR(50) NOT NULL
+);
 
+CREATE TABLE test_type_parameters (
+  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  test_type_id UUID NOT NULL REFERENCES test_types(id),
+  parameter_id UUID NOT NULL REFERENCES parameters(id),
+  unit_id UUID REFERENCES units(id),
+  low_expected_value DECIMAL,
+  high_expected_value DECIMAL,
+  reference_text VARCHAR(100),
+);
+
+CREATE TABLE reference_ranges(
+  id UUID PRIMARY KEY NOT NULL DEFAULT uuid_generate_v4(),
+  test_type_parameter_id UUID NOT NULL REFERENCES test_type_parameters(id),
+  low_value DECIMAL,
+  high_value DECIMAL,
+  reference_text VARCHAR(100),
+  gender VARCHAR(1),
+  min_age_years INTEGER,
+  max_age_years INTEGER
+);
