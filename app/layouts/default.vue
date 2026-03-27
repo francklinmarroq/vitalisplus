@@ -20,12 +20,19 @@ function getItems(expanded: boolean) {
           to: '/tests',
         },
         {
-          label: 'Units',
-          to: '/units',
-        },
-        {
-          label: 'Parameters',
-          to: '/parameters',
+          label: 'Catalogs',
+          children: [
+
+            {
+              label: 'Units',
+              to: '/units',
+            },
+            {
+              label: 'Parameters',
+              to: 'catalogs/parameters',
+            },
+
+          ],
         },
       ],
     },

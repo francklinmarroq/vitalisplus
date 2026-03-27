@@ -1,11 +1,10 @@
 export interface Parameter {
-  id: number | null
+  id: string | null
+  laboratoryId: string
   name: string
-  valueTypeId: number
-  lowExpectedValue: number | null
-  highExpectedValue: number | null
-  referenceText: string | null
-  unitId: number | null
-  parameterTypeId: number
+  valueTypeId: string
+  valueType: string
+  parameterTypeId: string
+  parameterType: string
   label: string
 }
